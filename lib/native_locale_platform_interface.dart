@@ -24,4 +24,8 @@ abstract class NativeLocalePlatform extends PlatformInterface {
   }
 
   Future<void> setLocale(String locale);
+
+  Future<String?> getLocalized(String key);
+
+  Future<String> getLocale();
 }
